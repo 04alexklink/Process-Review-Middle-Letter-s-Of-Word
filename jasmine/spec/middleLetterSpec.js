@@ -8,4 +8,8 @@ describe("middleLetter", () => {
     word = "A";
     expect(middleLetter(word)).toEqual("A");
   })
+  it("returns a 2 letter word that is inputted", () => {
+    word = "He";
+    expect(middleLetter(word)).toEqual("He");
+  })
 })
