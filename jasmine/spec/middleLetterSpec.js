@@ -12,4 +12,8 @@ describe("middleLetter", () => {
     word = "He";
     expect(middleLetter(word)).toEqual("He");
   })
+  it("returns middle letter of an inputted word that has an odd no of chars", () => {
+    word = "her";
+    expect(middleLetter(word)).toEqual("e");
+  })
 })
