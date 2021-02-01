@@ -1,5 +1,5 @@
 function middleLetter(word) {
-  if (typeof(word) !== "string") throw new Error("Please input a string.")
+  _isString(word);
   if (word.length > 2) {
     if (word.length % 2 === 1) {
       var midLetterIndexPosition = Math.floor(word.length / 2)
@@ -11,4 +11,8 @@ function middleLetter(word) {
     }
   }
   return word;
+}
+
+function _isString(word) {
+  if (typeof(word) !== "string") throw new Error("Please input a string.");
 }
