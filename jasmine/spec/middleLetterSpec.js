@@ -16,4 +16,16 @@ describe("middleLetter", () => {
     word = "her";
     expect(middleLetter(word)).toEqual("e");
   })
+  it("returns middle letter of an inputted word that has an odd no of chars", () => {
+    word = "hello";
+    expect(middleLetter(word)).toEqual("l");
+  })
+  it("returns 2 middle letters if inputted word length > 2 and chars no is even", () => {
+    word = "smiley";
+    expect(middleLetter(word)).toEqual("il");
+  })
+  it("returns 2 middle letters if inputted word length > 2 and chars no is even", () => {
+    word = "simultaneous";
+    expect(middleLetter(word)).toEqual("ta");
+  })
 })
