@@ -1,0 +1,3 @@
+function middleLetter() {
+  return "a";
+}
