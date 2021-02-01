@@ -2,9 +2,9 @@
 ## Client Requirements:
 Write an application that takes in a word and returns the middle 2 letters if the word is of even length, and returns the middle letter if word is of odd length.
 
-Example: middleLetter("test) should output "es"
+Example: middleLetter("test") should output "es"
 
-|INPUT   | OUTPUT||
+|INPUT   | OUTPUT|
 |-------|-------|
 |"a"     |  "a"|
 |"A"     |  "A"|
