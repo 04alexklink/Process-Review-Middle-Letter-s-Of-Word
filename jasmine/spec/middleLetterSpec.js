@@ -28,4 +28,10 @@ describe("middleLetter", () => {
     word = "simultaneous";
     expect(middleLetter(word)).toEqual("ta");
   })
+  describe("Edge cases", () => {
+    it("should throw an error if a string is not inputted", () => {
+      array = [];
+      expect(function() {middleLetter(array)}).toThrowError("Please input a string.")
+    })
+  })
 })
